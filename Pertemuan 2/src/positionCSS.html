@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position CSS</title>
+        <link rel="stylesheet" type="text/css" href="stylePosition.css">
+    </head>
+
+    <body>
+        <h2>Position static</h2>
+
+        <p>Position static digunakan untuk mengatur elemen menjadi statis secara default.
+            Elemen akan mengikuti posisi normal sacara default,
+            elemen tidak dipengaruhi oleh properti seperti top, bottom, left dan right.
+        </p>
+        <div class="static">
+            Elemen ini diatur menggunakan pisisi static;
+        </div>
+        <br><br><br>
+        <h2>position: relative</h2>
+        <p>Sebelum elemt HTML yang di setting dengan position relative akan terletak pada posisi normal.
+            Mengatue properti atas, kanan, bawah, dan kiri dari elemen yang diposisikan dengan "relatif"
+            akan membuat jauh dari posisi normalnya.
+            Konten lain tidak disesuaikan agar sesuai dengan celah yang ditinggalkan oleh elementersebut.
+        </p>
+        <div class="relative">
+            Elemen ini diatur menggunakan posisi relative;
+        </div>
+        <br><br><br>
+        <h2>position: fixed</h2>
+        <p>Elemen HTML yang menggunakan position absolute akan diposisikan relatif dengan
+            elemen lain yang mendahuluinya yang terdekat,
+            bukan relatif terhado layar secara normal.
+        </p>
+        <div class="relative1">Elemen ini diatur menggunakan pisisi : relative;
+            <div class="absolute">Elemen ini diatur menggunakan posisi : absolute</div>
+        </div>
+        <br><br><br>
+        <br><br><br>
+        <h2>position: sticky</h2>
+        <p>Cobbalah untuk <b>scroll</b> untuk mengetahui bagaimana posisi sricky bekerja.</p>
+        <p>Catatan: IE/Edge 15 dan versi yang lebih lama tidak mendukung sticky.</p>
+        <div class="sticky">Ha;;o aku adalah sticky!</div>
+        <div style="padding-bottom:200px">
+            <p>Dalam contoh  ini, elemen sticky menempel pada posisi paling atas halaman(top:0),
+                ketika mencapai posisi scrollnya.
+            </p>
+            <p>Cobalah untuk melakukan scroll. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                em, molestias labore tempore vel ratione assumenda dolorum doloribus magnam quos hic.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, praesentium!
+            </p>
+            <p>Cobalah untuk melakukan scroll. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                em, molestias labore tempore vel ratione assumenda dolorum doloribus magnam quos hic.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, praesentium!
+            </p>
+        </div>
+    </body>
+</html>

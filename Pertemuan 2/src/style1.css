@@ -1,0 +1,73 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+/*Latihan 1*/
+.container-satu{
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+/*Tugas*/
+
+.kolom-utama{
+    flex: 2;
+    max-width: 100%;
+    order: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: antiquewhite;
+    border: 2px solid #ccc;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gambar{
+    width: 50%;
+    height: auto;
+}
+
+.sidebar-satu{
+    flex: 1;
+    background-color: antiquewhite;
+    border: 2px solid #ccc;
+    padding-right: 20px;
+}
+
+.sidebar-dua{
+    flex: 1;
+    background-color: antiquewhite;
+    border: 2px solid #ccc;
+    padding-right: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+h2, h3{
+    text-align: center;
+}
