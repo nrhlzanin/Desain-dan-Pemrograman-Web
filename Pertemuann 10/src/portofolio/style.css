@@ -1,0 +1,54 @@
+/* Navbar */
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav-link.active {
+    color: #113946;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #BCA37F;
+    width: 20%;
+    margin-right: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+    text-align: left;
+}
+
+/* Section */
+section {
+    min-height: 500px;
+}
+
+/* Tombol */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) { 
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #BCA37F;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
